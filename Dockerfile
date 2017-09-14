@@ -1,5 +1,5 @@
-FROM drydockaarch64/u16:master
+FROM drydockaarch64/u16:v5.9.2
 
-ADD . /u16pytall
+ADD . /u16pyt
 
-RUN /u16pytall/install.sh
+RUN /u16pyt/install.sh

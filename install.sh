@@ -19,7 +19,7 @@ cd virtualenv-15.1.0
 python setup.py install
 cd /
 #!/bin/bash
-for file in /u16pytall/version/*;
+for file in /u16pyt/version/*;
 do
   $file
 done
