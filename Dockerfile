@@ -1,4 +1,4 @@
-FROM drydockaarch64/u16:v5.9.2
+FROM drydockaarch64/u16:{{%TAG%}}
 
 ADD . /u16pyt
 
